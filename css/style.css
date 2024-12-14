@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 50px 30px;
+    background-color: #89caca;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+
+.main h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+input,button{
+    padding: 10px 20px;
+    border-radius: 4px ;
+    border: 1px solid white ;
+    background-color: transparent;
+    outline: 0;
+    width: 100%;
+}
+
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .4s;
+    font-weight: 600;
+    color: rgba(60, 60, 60, 0.904);
+}
+
+button:hover{
+    background-color: white;
+}
+
+
+.genderField{
+    display: flex;
+    flex-direction: row;
+}
+
+.genderField #gender{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.genderField input{
+    margin-left: 70px;
+}
+
+
+.heightField,.weightField{
+    position: relative;
+}
+
+.heightField p,.weightField p{
+    position: absolute;
+    top: 100%;
+    transform: translateY(1.5px);
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+}
+
+.result{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.sugg{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main .heightField label{
+    color: #a7c6fd;
+}

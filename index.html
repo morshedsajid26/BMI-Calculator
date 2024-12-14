@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.477);">
+
+    <div class="main">
+
+        <h3>BMI Calculator</h3>
+
+        <div class="genderField">
+
+            <label id="gender">Gender</label>
+
+        <input class="male" name="Gender" type="radio">
+        <label for="Male">Male</label>
+
+        <input class="female" name="Gender" type="radio">
+        <label for="Female">Female</label>
+
+
+
+            <!-- <label for="">Gender</label>
+            <select class="gender">
+                <option value="">Select</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+            <p class="genderError"></p> -->
+        </div>
+        
+        
+
+        <div class="heightField"> 
+            <h3>Height</h3>
+            <input class="height" type="number" placeholder="Enter your Height (inch)">
+        <p class="heightError"></p>
+        </div>
+        
+        <div class="weightField">
+            <h3>Weight</h3>
+            <input class="weight" type="number" placeholder="Enter your Weight (kg)">
+        <p class="weightError"></p>
+        </div>
+        
+        <button class="calculate">Calculate</button>
+        
+        <p class="result"></p>
+        
+        <span class="sugg"></span>
+    </div>
+
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
